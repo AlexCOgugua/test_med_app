@@ -117,20 +117,20 @@ const Login = () => {
   return (
     <div>
         {/* Main container div for the page content */}
-    <div class="container">
+    <div className="container">
         {/* Div for login grid layout */}
-        <div class="login-grid">
+        <div className="login-grid">
           {/* Div for login text */}
-          <div class="login-text">
+          <div className="login-text">
             <h2>Login</h2>
           </div>
           {/* Additional login text with a link to Sign Up page */}
-          <div class="login-text">
+          <div className="login-text">
             Are you a new member? <Link to='/signup'><span><a href="../Sign_Up/Sign_Up.html" style={{color: `{#2190FF}`}}> Sign Up Here</a></span></Link>
           </div>
           <br />
           {/* Div for login form */}
-          <div class="login-form">
+          <div className="login-form">
           <form onSubmit={login}>
               <div className="form-group">
                 <label htmlFor="email">Email</label>
@@ -160,7 +160,7 @@ const Login = () => {
                   placeholder="Enter your password"
                   aria-describedby="helpId"
                 />
-              </div>
+             </div>
               {/* Button group for login and reset buttons */}
               <div class="btn-group">
                 <button type="submit" class="btn btn-primary mb-2 mr-1 waves-effect waves-light">Login</button> 
