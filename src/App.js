@@ -12,11 +12,8 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Sign_Up from './Components/Sign_Up/Sign_Up';
 import Login from './Components/Login/Login';
 import InstantConsultation from './Components/InstantConsultationBooking/InstantConsultation';
-<<<<<<< HEAD
 import Notification from './Components/Notification/Notification';
 
-=======
->>>>>>> 18b60f1c81794d2b80bd3225027451453527f194
 
 // Function component for the main App
 function App() {
@@ -42,17 +39,6 @@ function App() {
             
           </Notification>
 
-<<<<<<< HEAD
-=======
-          {/* Set up the Routes for different pages */}
-          <Routes>
-            {/* Define individual Route components for different pages */}
-            <Route path="/" element={<LandingPage/>}/>
-            <Route path="/signup" element={<Sign_Up/>}/>
-            <Route path="/login" element={<Login/>}/>
-            <Route path="/instant-consultation" element={<InstantConsultation />} />
-          </Routes>
->>>>>>> 18b60f1c81794d2b80bd3225027451453527f194
         </BrowserRouter>
     </div>
   );
